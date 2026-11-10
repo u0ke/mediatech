@@ -1,21 +1,13 @@
+
 {
-  "name": "mediatech",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/u0ke/mediatech.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
-  "bugs": {
-    "url": "https://github.com/u0ke/mediatech/issues"
-  },
-  "homepage": "https://github.com/u0ke/mediatech#readme"
+    "name": "mediatech",
+    "version": "1.0.0",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "^5.1.0"
+    }
 }
